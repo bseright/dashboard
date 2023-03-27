@@ -14,6 +14,52 @@ html, body {
 
 #navigation {
     background-color: red;
+    color: white;
+}
+
+#navigation-header {
+    display: flex;
+    font-size: 1.1em;
+    padding: 10px 0 0 20px;
+    margin: 0;
+}
+
+#navigation-header h3 {
+    font-family: 'Exo', sans-serif;
+    padding: 3px 0 0 5px;
+}
+
+#navigation-header img {
+    width: 50px;
+    filter: invert(1);
+}
+
+#navigation ul {
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-top: 40px;
+    padding: 0 0 0 25px;
+}
+
+#navigation li {
+    margin-bottom: 15px;
+}
+
+#navigation a {
+    display: flex;
+    align-items: center;
+}
+
+#navigation a:not(img) > * {
+    margin-top: -3px;
+}
+
+#navigation a img {
+    width: 30px;
+    filter: invert(1);
+    margin-right: 15px;
 }
 
 #main {
