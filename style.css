@@ -9,7 +9,7 @@ html, body {
 
 #body-layout {
     display: grid;
-    grid-template-columns: minmax(250px, 325px) 1fr;
+    grid-template-columns: minmax(250px, 350px) 1fr;
     height: 100%;
 }
 
@@ -17,12 +17,13 @@ html, body {
     background-color: #2979FF;
     color: white;
     z-index: 101;
+    padding-right: 30px;
 }
 
 #navigation-header {
     display: flex;
     font-size: 1.1em;
-    padding: 10px 0 0 20px;
+    padding: 20px 0 0 20px;
     margin: 0;
 }
 
@@ -34,8 +35,8 @@ html, body {
 }
 
 #navigation-header img {
-    width: 50px;
-    filter: invert(1);
+    min-width: none;
+    width: 285px;
 }
 
 #navigation ul {
