@@ -8,7 +8,7 @@ html, body {
 
 #body-layout {
     display: grid;
-    grid-template-columns: .3fr 1fr;
+    grid-template-columns: minmax(250px, .3fr) 1fr;
     height: 100%;
 }
 
@@ -64,4 +64,56 @@ html, body {
 
 #main {
     background-color: blue;
+    display: grid;
+    grid-template-rows: 75px 100px 1fr;
+}
+
+#header {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#header img {
+    width: 25px;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#search-bar {
+    background-color: white;
+    width: 40vw;
+    min-width: 300px;
+    max-width: 550px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 201px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+#header-right img:last-of-type {
+    width: 40px;
+}
+
+#greeting {
+    background-color: white;
+}
+
+#content {
+    background-color: yellow;
 }
