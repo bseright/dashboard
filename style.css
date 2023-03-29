@@ -3,7 +3,6 @@ html, body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background-color: green;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -41,7 +40,6 @@ html, body {
 
 #navigation ul {
     list-style: none;
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     font-size: 1.1em;
     margin-top: 40px;
@@ -68,7 +66,6 @@ html, body {
 }
 
 #main {
-    background-color: blue;
     display: grid;
     grid-template-rows: 75px 100px 1fr;
 }
@@ -119,9 +116,54 @@ html, body {
 }
 
 #greeting {
-    background-color: white;
     box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.164);
     z-index: 100;
+
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+#greeting-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#greeting-left img {
+    width: 4em;
+    height: 4em;
+}
+
+#greeting-left p, #greeting-left h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#greeting-left h1 {
+    font-size: 1.5em;
+}
+
+#greeting-left p {
+    padding: 10px 0 10px 0;
+}
+
+#greeting-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#greeting-right button {
+    background-color: #2979FF;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
 }
 
 #content {
