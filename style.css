@@ -34,8 +34,8 @@ html, body {
 }
 
 #navigation-header img {
-    min-width: none;
-    width: 285px;
+    min-width: 210px;
+    width: 290px;
 }
 
 #navigation ul {
@@ -196,6 +196,56 @@ html, body {
     border-radius: 10px;
     border-left: 8px solid rgb(245, 217, 93);
     box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.164);
+    padding: 30px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.card-header input {
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.card-header input:checked {
+    background-color: #2979FF;
+}
+
+.card h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+.card-desc {
+    flex-grow: 1;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 20px;
+}
+
+.card-footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.percentage {
+    font-weight: bold;
 }
 
 #side-content {
