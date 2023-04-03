@@ -268,4 +268,30 @@ html, body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.not-bot {
+    border-bottom: 1px solid lightgray;
+}
+
+.announcement {
+    font-size: .8em;
+    height: 33%;
+
+    display: flex;
+    align-items: center;
+}
+
+.announcement p {
+    color: rgb(108, 108, 108);
+}
+
+.when {
+    color: black;
+}
+
