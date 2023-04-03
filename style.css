@@ -226,6 +226,7 @@ html, body {
 .card p {
     margin-top: 20px;
     padding-right: 50px;
+    color: rgb(108, 108, 108);
 }
 
 .card-desc {
@@ -242,10 +243,12 @@ html, body {
 .card-footer p {
     padding: 0;
     margin: 0;
+    color: color: rgb(108, 108, 108);
 }
 
 .percentage {
     font-weight: bold;
+    color: black;
 }
 
 #side-content {
@@ -268,7 +271,7 @@ html, body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.164);
-    padding: 20px;
+    padding: 0px 20px;
 
     display: flex;
     flex-direction: column;
@@ -280,7 +283,7 @@ html, body {
 }
 
 .announcement {
-    font-size: .8em;
+    font-size: .85em;
     height: 33%;
 
     display: flex;
@@ -293,5 +296,43 @@ html, body {
 
 .when {
     color: black;
+}
+
+.card3 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.learner {
+    display: flex;
+    align-items: center;
+}
+
+.learner img {
+    width: 40px;
+}
+
+.learner p, .learner h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.learner-stats {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-size: .85em;
+}
+
+.points {
+    color: rgb(108, 108, 108);
 }
 
