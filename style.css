@@ -86,7 +86,18 @@ html, body {
 #header-left {
     display: flex;
     align-items: center;
-    gap: 20px;
+}
+
+#header-left img {
+    position: relative;
+    left: 20px;
+    top: 1px;
+    width: 20px;
+}
+
+#header-left div {
+    position: relative;
+    right: 10px;
 }
 
 #search-bar {
@@ -227,6 +238,7 @@ html, body {
     margin-top: 20px;
     padding-right: 50px;
     color: rgb(108, 108, 108);
+    line-height: 1.3em;
 }
 
 .card-desc {
@@ -292,10 +304,12 @@ html, body {
 
 .announcement p {
     color: rgb(108, 108, 108);
+    line-height: 1.3em;
 }
 
 .when {
     color: black;
+    font-weight: bold;
 }
 
 .card3 {
